@@ -34,7 +34,7 @@ app.use('/api/materials', materialRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-  res.status(200).json({ message: "Node server running successfully!" });
+  res.status(200).json({ message: "Node server running on successfully!" });
 });
 
 // Start server
